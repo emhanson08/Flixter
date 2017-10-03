@@ -39,6 +39,10 @@ gem 'simple_form'
 gem 'devise'
 gem 'carrierwave', '~> 1.0'
 
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
+end
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
